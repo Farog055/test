@@ -60,7 +60,7 @@ export const Home = () => {
               <img
                 className="md:size-7 md:ml-3.5 flex size-6 ml-4"
                 src={logo}
-                alt="Flipkart"
+                alt="Flipkarts"
               />
               <div className="pl-2 flex font-bold md:font-semibold pt-0.5 md:text-md text-lg italic">
                 Flipkart
