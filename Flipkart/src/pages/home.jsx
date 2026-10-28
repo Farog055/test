@@ -255,7 +255,7 @@ export const Home = () => {
           <img
             src={ad2}
             alt="Ad"
-            className="w-1/3 h-full object-cover rounded-2xl ."
+            className="w-1/3 h-full object-cover rounded-3xl ."
           />
           <img
             src={ad4}
