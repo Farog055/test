@@ -56,7 +56,7 @@ export const Home = () => {
       <div className="sticky z-50 bg-white top-0 md:mb-4">
         <div className="flex-row md:flex justify-between  w-auto h-auto  ">
           <div className=" flex flex-row md:gap-4 md:m-4 mx-2 gap-4 py-2  ">
-            <div className=" flex  bg-[#ffe51f] w-50 md:w-40 h-12 rounded-2xl md:pt-2 md:justify-normal  py-2  ">
+            <div className=" flex  bg-red-600 w-50 md:w-40 h-12 rounded-2xl md:pt-2 md:justify-normal  py-2  ">
               <img
                 className="md:size-7 md:ml-3.5 flex size-6 ml-4"
                 src={logo}
