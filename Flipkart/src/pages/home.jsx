@@ -184,20 +184,23 @@ export const Home = () => {
       <div className="bg-white  md:overflow-hidden md:h-full md:mt-5 md:ml-6 md:mr-6 overflow-hidden h-full mt-5 ml-3">
         <div className="flex h-full md:w-[120%] w-[290%] md:gap-8 gap-5 animate-[slideInfinite_8s_ease-in-out_infinite]">
           <img
-            src={ad2}
+            src={ad4}
             alt="Ad"
-            className="w-1/3 h-full object-cover rounded-2xl "
+            className="w-1/3 h-full object-cover rounded-2xl"
           />
+
           <img
             src={ad4}
             alt="Ad"
             className="w-1/3 h-full object-cover rounded-2xl "
           />
+          <Link to="/watchpage" className="w-1/3 h-full shrink-0 block">
           <img
             src={ad2}
             alt="Ad"
-            className="w-1/3 h-full object-cover rounded-2xl "
+            className="w-full h-full object-cover rounded-2xl "
           />
+          </Link>
           <img
             src={ad5}
             alt="Ad"
@@ -278,7 +281,7 @@ export const Home = () => {
           />
         </div>
       </div>
-      
+
       <div className="flex md:hidden z-50  fixed bottom-0 w-full pt-2 bg-white gap-5 px-4 justify-between  ">
         <div>
           <button className="text-sm">
